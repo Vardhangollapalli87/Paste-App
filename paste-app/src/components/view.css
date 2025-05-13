@@ -1,0 +1,27 @@
+.title{
+    border: none;
+    outline: none;
+    display: flex;
+    justify-content: center;
+    justify-self: center;
+    padding :5px;
+    margin-top: 20px;
+    font-size: 24px;
+    font-weight: 600;
+    color:rgb(60, 109, 138);
+    cursor:not-allowed;
+}
+.content{
+    justify-self: center;
+    margin-top: 10px;
+    height:500px;
+    width: 500px;
+    border:1px solid rgb(218, 215, 215);
+    border-radius: 12px;
+    padding: 10px;
+    line-height: 2;
+    font-size: 19px;
+    cursor:not-allowed;
+    background: rgba(235, 239, 240, 0.103);
+    color: rgb(100, 122, 111);
+}

@@ -1,0 +1,68 @@
+.search-bar{
+    margin-top: 10px;
+    
+    width: 55%;
+    font-size: 20px;
+    font-weight: 400;
+    padding: 2px 15px;
+    border-radius: 15px;
+    margin-left: 20%;
+    border:1.8px solid rgb(161, 236, 230);
+    outline: none;
+    font-family:'Times New Roman', Times, serif;
+}
+.search-bar:focus{
+    border-color: rgb(43, 240, 207);
+    color: rgb(98, 112, 102);
+}
+.pastes-container{
+    display: flex;
+    width: 100vw;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+.paste{
+    width:90%;
+    max-height: max-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding:10px;
+    border-top: 1.8px solid rgb(15, 132, 185);
+    border-bottom: 1.8px solid rgb(15, 132, 185);
+}
+.paste-title{
+    font-weight: bolder;
+    font-size: 24px;
+    padding: 10px;
+    color: rgb(2, 46, 46);
+}
+.buttons{
+    display: flex;
+    width:100%;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    color:brown;
+}
+.buttons button:active{
+    color:blueviolet;
+    padding: 2px 5px;
+    border-radius: 5px;
+    background-color: rgb(230, 206, 174);
+}
+.date{
+    font-size: small;
+    padding: 2px;
+    margin-top: 5px;
+}
+.heading{
+    font-size: larger;
+    font-weight: bolder;
+    color: rgb(59, 56, 56);
+    padding: 4px;
+    margin-bottom: 10px;
+}
