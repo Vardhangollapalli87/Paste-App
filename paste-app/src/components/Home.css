@@ -72,3 +72,24 @@
     border-color: #96abf1;
     color: rgb(51, 2, 97);
 }
+
+
+@media screen  and (max-width:750px){
+    .inner-container{
+        flex-direction: column;
+        gap:1rem;
+    }
+
+    .title-input{
+        width:100%;
+    }
+
+    .textarea-container{
+        width:80%;
+        align-self: center;
+    }
+
+    .text-area{
+        width:100%;
+    }
+}

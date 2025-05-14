@@ -25,3 +25,11 @@
     background: rgba(235, 239, 240, 0.103);
     color: rgb(100, 122, 111);
 }
+
+
+@media screen and (max-width:750px) {
+    .content{
+        height: 500px;
+        width: 300px;
+    }
+}
